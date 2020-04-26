@@ -6,12 +6,12 @@
 _This course projects includes analysis on Breast Cancer Prediction using Data Mining based on Breast Cancer Wisconsin (Diagnostic) Dataset from UCI repository. The major goal of this course project is to experiment data mining techniques covered under CSC 7810 - Data Mining: Algorithms and Applications and work towards implementation of those knowledge to develop a near to perfect model in predicting Breast Cancer. The more accurate the model are, more chances of artificial systems to predict if the person is having Breast Cancer. Hence the main outline of this project lies on studying existing literature, draw comparison between Unsupervised, Supervised &amp; Semi-Supervised Learning. This course work also covers novel techniques of predicting Breast Cancer using Semi-Supervised Learning. Additionally, experiments are also performed in Neural Networks to build a robust model implementing backpropagation algorithm using R interface to Keras framework &amp; TensorFlow backend engine and comparisons are drawn using multiple hidden layers and activation functions._
 
 
-## _ **Overview** _
+# OVERVIEW
 
 Breast Cancer is a group of disease in which cells in breast tissue change and divide uncontrollably leading to lump or mass. It is the most common cancer diagnosed among women and is the one of the leading causes of death among women after lung cancer in the United States. It is the most common type of cancer which causes 411,000 annual deaths worldwide.
 
   1.
-## _ **Literature Review** _
+# LITERATURE REVIEW
 
 In multiple literatures, various machine learning models - both supervised and unsupervised models have been suggested to classify Breast Cancer. However, we find till date, most approaches suggested in the literatures differ mostly in the adopted data mining technique and how to deal with the missing attribute values and labels. An important shortcoming that most of these methods share is that they are either designed for big datasets or have not been tested enough to address the challenge of data scarcity, which is often the case for cancer datasets. We take this opportunity to build our model using different approach that will address this challenge
 
@@ -32,16 +32,7 @@ Few literatures already implemented SSL which includes _Self-Training_ technique
 
 **Democratic co-learning** is the methodology in which multiple algorithms instead of multiple views enable learners to label data for each other. The technique leverages off the fact that different learning algorithms have different inductive biases and that better predictions can be made by the voted majority.
 
-  1.
-## _ **Objective &amp; Contribution** _
 
-The major motivation of this course project is to develop an effective product using Data Mining in medical domain that will transform the data and reduce dimension to reveal patterns in the dataset and create a robust analysis.
-
-- Our **novel contribution** lies in utilizing multiple semi supervised learning (SSL) methods to build models and demonstrate its comparable accuracy with Supervised model since SSL technique is proven better and useful for a medical domain problem.
-- Additionally, we performed end to end analysis and produced comparable results for Supervised &amp; Unsupervised Learning too.
-- Furthermore, as a part of Supervised Model analysis, we focused on Neural Network to compare with multiple hidden layers and activation function.
-
-The optimal models are selected based on comparable factors like balanced accuracy, sensitivity, specificity and F1 score, among other factors.
 
 # Data Analysis
 
